@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+#header {
+    overflow: auto;
+    
+}
+#header * {
+    float: right;
+    display: block;
+    margin-right: 15px;
+}
+#user {
+    border-radius: 50%;
+    width: 60px;
+}
+#header i,a {
+    margin-top: 20px;
+}
+/*  */
+
+#container {
+    width: 600px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    margin-top: 70px;
+}
+#logo {
+    width: 280px;
+    margin-bottom: 30px;
+}
+#search-box *{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#google-search {
+    width: 561px;
+    height: 44px;
+    border-radius: 50px;
+    border: 1px solid black;
+    overflow: hidden;
+    
+}
+#search-box i{    
+    display: block;
+
+}
+
+#icon-one {
+    position: relative;
+    top: 15px;
+    left: 40px;
+    float: left;
+
+}
+#icon-two {
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 40px;
+}
+
+.button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 450px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.button * {
+    padding: 5px;
+}
+#btn-two {
+    float: right;
+    margin-right: 80px;
+
+} 
+#btn-one {
+    float: left;
+    margin-left: 90px;
+}
+input[type="button"] {
+    border-radius: 50px;
+    border: 1px solid white;
+}
+input[type="button"]:hover {
+    border-radius: 10px;
+    border: 2px solid burlywood;
+}
